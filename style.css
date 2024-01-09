@@ -279,55 +279,33 @@
     font-weight: 500;
     line-height: 32px;
     margin-top: 0;
+    margin-bottom: 0;
 }
-.img-holiday{
-    display: flex;
-    justify-content: space-between;
+.sale-container{
     height: 662px;
     width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url(images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
-
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 0;
 }
-.img-discount{
-    background-image:url(images/Rectangle\ 1.png) , linear-gradient(180deg, lightgray 0%, rgba(7, 2, 17, 0.00) 151.553% 100%);
-    background-position:right;
-    background-repeat: no-repeat;
+.discount-box{
+    width: 429px;
     height: 433px;
-    width: 433px;
-    margin-bottom: 0px;
-    padding-bottom: 0;
-    border-radius: 16px 16px 0px 0px;
-    margin-right: 0;
+    background-image: url(images/Rectangle\ 1.png) , linear-gradient(180deg, lightgray 0%, rgba(7, 2, 17, 0.00) 151.553% 100%);
+    border-radius: 16px  16px 0px 0px;
 }
-.box-discount{
-    height: 200px;
-    width: 640px;
-    margin-top: 90px;
-    margin-bottom: 0;
-    margin-right: 70px;
-
-}
-.box-discount img{
-    width: 644px;
-}
-.fifty-discount{
-    width: 200.048px;
-    height: 200.048px;
-    transform: rotate(-2.212deg);
-    flex-shrink: 0;
-    margin-top: 50px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: -5px;
-
-}
-.fifty-discount{
-    width: 190.841px;
-    height: 190.841px;
+.discount-box img{
+    display: block;
+    width: 206.841px;
+    height: 206.841px;
+    margin-left: -110px;
+    margin-top: 118px;
 }
 /* box 7 styles */
 .item-list{
