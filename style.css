@@ -215,7 +215,7 @@
     height: 364.844px;
     flex-shrink: 0;
     border-radius: 364.844px;
-    background-image:url(images/Ellipse\ 1.png);
+    background-image:url(images/Ellipse\ 1.png) ;
     background-position: center;
     background-repeat: no-repeat;
     padding: 49.08px;
@@ -296,7 +296,7 @@
     background-image:url(images/Rectangle\ 1.png) , linear-gradient(180deg, lightgray 0%, rgba(7, 2, 17, 0.00) 151.553% 100%);
     background-position:right;
     background-repeat: no-repeat;
-    height: 436px;
+    height: 433px;
     width: 433px;
     margin-bottom: 0px;
     padding-bottom: 0;
@@ -317,11 +317,12 @@
 .fifty-discount{
     width: 200.048px;
     height: 200.048px;
-    transform: rotate(-24.212deg);
+    transform: rotate(-2.212deg);
     flex-shrink: 0;
     margin-top: 50px;
     margin-bottom: 0;
     margin-left: 0;
+    margin-right: -5px;
 
 }
 .fifty-discount{
